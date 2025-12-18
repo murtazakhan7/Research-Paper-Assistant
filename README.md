@@ -8,7 +8,7 @@ This guide will help you train a decoder-only transformer on **real ArXiv machin
 
 ---
 
-## ⚡ Quick Start (3 Steps)
+## ⚡ Quick Start (2 Steps)
 
 ### **Step 1: Install Dependencies**
 
@@ -26,10 +26,6 @@ Copy the **Final Production-Ready Decoder Transformer** code and run:
 if __name__ == "__main__":
     model, tokenizer, config = main()
 ```
-
-### **Step 3: Demonstrate to Teacher**
-
-Copy the **Teacher Demonstration - Evaluation Script** and run it!
 
 ---
 
@@ -92,7 +88,7 @@ After training, these files are saved to Google Drive at `/content/drive/MyDrive
 
 ---
 
-## 🎓 Teacher Demonstration
+## 🎓 Demonstration
 
 The evaluation script demonstrates:
 
@@ -134,13 +130,6 @@ The evaluation script demonstrates:
 4. **Reproducible**: Saved checkpoints and configs
 5. **Demonstrable**: Clear evaluation metrics
 
-### 🏆 What Your Teacher Will See
-
-- **Working transformer** trained from scratch
-- **Real academic text generation**
-- **Understanding of architecture** (attention, residual connections)
-- **Proper training procedures** (validation, overfitting prevention)
-- **Professional presentation** (plots, statistics)
 
 ---
 
@@ -259,24 +248,7 @@ comprehensive_demo(model, tokenizer, config)
 
 ---
 
-## ✅ Checklist for Teacher Demo
-
-Before presenting:
-
-- [ ] Model trained successfully
-- [ ] Loss curves show learning
-- [ ] Model saved to Google Drive
-- [ ] Can load model from checkpoint
-- [ ] Generated text is coherent
-- [ ] Understand architecture components
-- [ ] Can explain causal masking
-- [ ] Know parameter count
-- [ ] Tested different temperatures
-- [ ] Prepared to answer questions
-
----
-
-## 🤔 Expected Questions & Answers
+## 🤔Questions & Answers
 
 ### Q: Why decoder-only and not encoder-decoder?
 **A**: Decoder-only (like GPT) is simpler and sufficient for text generation. We only need to predict next tokens, not encode-decode.
