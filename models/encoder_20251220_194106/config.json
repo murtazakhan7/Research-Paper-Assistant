@@ -1,0 +1,17 @@
+{
+  "d_model": 256,
+  "num_layers": 4,
+  "num_heads": 8,
+  "d_ff": 1024,
+  "max_seq_len": 256,
+  "vocab_size": 8000,
+  "num_classes": 4,
+  "dropout": 0.1,
+  "pooling_type": "cls",
+  "batch_size": 32,
+  "num_epochs": 20,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "num_samples": 10000,
+  "train_split": 0.9
+}
